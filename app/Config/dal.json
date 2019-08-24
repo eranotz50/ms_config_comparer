@@ -1,0 +1,4 @@
+{
+    "Url" : "mongodb://uk1lv8442:27017,nl1lv8443:27017,az-lv8444:27017?connect=replicaSet&amp;replicaSet=Market_Streamer_Config_ReplSet&amp;readPreference=primaryPreferred&amp;connectTimeoutMS=30000",
+    "DbName" : "MarketStreamer_Algorithm"
+}

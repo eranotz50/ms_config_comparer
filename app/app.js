@@ -1,65 +1,118 @@
-var url = "mongodb://uk1lv8442:27017,nl1lv8443:27017,az-lv8444:27017?connect=replicaSet&amp;replicaSet=Market_Streamer_Config_ReplSet&amp;readPreference=primaryPreferred&amp;connectTimeoutMS=30000";
-var dbName = "MarketStreamer_Algorithm";
-
 var source =  { OutputGroupName : 'Fortrade' , OutputGroupId : 3} ;
 var dest  =   { OutputGroupName : 'GCM' , OutputGroupId : 1};
 
+var util = require('util');
+var comparer = require('./comparer.js').Comparer;
 
-var Util = require('Util');
-var Dal = require('./dal.js').Dal;
-var Comparer = require('./dal.js').Comparer;
-var dal = new Dal(url,dbName);
-
+var Dal = require('./dal.js');
+var dalConfig = require('./Config/dal.json');
+var dal = new Dal(dalConfig);
 
 var Cache = require('./cache.js');
+var cache = new Cache('./Cache');
+
+var systemInstruments = null;
+var sourceInstruments = null;
+var destInstruments = null;
+
+console.log('Running..');
 
 
-console.log('Connecting..');
+(function () {
 
-var connectPromise = dal.Connect()
-        .then(msg => console.log(msg))
-        .catch(err => console.log(err))
+    var promises = [];
 
-Promise.all([connectPromise]);
+    promises.push(cache.Get(source.OutputGroupName)
+        .then(result => sourceInstruments = result)
+        .catch(err => console.log(err)));
 
-var sourceRes = null;
-var destRes = null;
+    promises.push(cache.Get(dest.OutputGroupName)
+        .then(result => destInstruments = result)
+        .catch(err => console.log(err)));
 
-Cache.Get(source)
-    .then(result => sourceRes = { Instruments : result , Name : source.OutputGroupName})
-    .catch(err => console.log(err));
+    promises.push(cache.Get("SystemInstruments")
+        .then(result => systemInstruments = result)
+        .catch(err => console.log(err)));
 
-Cache.Get(dest)
-    .then(result => destRes = { Instruments : result , Name : dest.OutputGroupName})
-    .catch(err => console.log(err));
+    Promise.all(promises)
+        .then(_ =>{
+            console.log('Before GetFromDal()')
+            // todo : check what's needed to return promise from GetFromDal()
+            GetFromDal().then(_ => {
+                 console.log('GetFromDal() complete.')
+        
+                if(sourceInstruments != null && destInstruments != null && systemInstruments != null){
+                    var spreadCompareResult = Comparer.Spread(sourceInstruments,destInstruments,systemInstruments);         
+                }         
+            }).catch(err => console.log("Unexpected error from GetFromDal() -> " + err))       
+        } )
+        .catch(_ => console.log('Cache check completed with Error on or more errors'));      
+})();
 
-var promises = [];
+
+function GetFromDal(){
+
+    var promises = [];
+
+    return dal.Connect().then(msg => {
+        console.log(msg);
     
-if(sourceRes == null){
-    var sourcePromise = dal.Get("OutputInstrument", { OutputGroupId : source.OutputGroupId})
-                        .then(result => sourceRes = { Instruments : result , Name : source.OutputGroupName })
-                        .catch(err => console.log('Error from Dal when quering for source -> ' + source + '\n' + err));        
-
-    promises.push(sourcePromise);
-}
-
-if(destRes == null){
-    var destPromise = dal.Get("OutputInstrument", { OutputGroupId : dest.OutputGroupId})
-                        .then(result => destRes = { Instruments : result, Name : dest.OutputGroupName})
-                        .catch(err => console.log('Error from Dal when quering for dest -> ' + dest + '\n' + err));        
-
-    promises.push(destPromise);
-}
+        if(sourceInstruments == null){
+             console.log('dal.Get( source ) Start');
     
-Promise.all(promises)
-    .then(_ => {})
-    .catch(err => console.log('ERROR from one or more promises. \n' + err));
+             var sourcePromise = dal.Get("OutputInstrument", { OutputGroupId : source.OutputGroupId})
+                    .then(result => {
+                        result.forEach(i => i.OutputGroupName = source.OutputGroupName);
+                        sourceInstruments = result;
 
-if(sourceRes != null && destRes != null){
+                        console.log('dal.Get( source ) Completed with ' + result.length + ' Items');
+                    })
+                    .catch(err => console.log('Error from Dal when quering for source -> ' + source + '\n' + err));        
+    
+            promises.push(sourcePromise);
+        }
+    
+        if(destInstruments == null){
+            console.log('dal.Get( dest ) Start');
+    
+            var destPromise = dal.Get("OutputInstrument", { OutputGroupId : dest.OutputGroupId})
+                    .then(result => {                        
+                        result.forEach(i => i.OutputGroupName = dest.OutputGroupName);
+                        destInstruments = result;
 
-   // var spreadCompareResult = Comparer.Spread(sourceRes.Instruments,destRes.Instruments);
+                        console.log('dal.Get( dest ) Completed with ' + result.length + ' Items');
+                    })
+                    .catch(err => console.log('Error from Dal when quering for dest -> ' + dest + '\n' + err));        
+    
+            promises.push(destPromise);        
+        }
 
+        if(systemInstruments == null){
+            console.log('dal.Get( system ) Start');
+
+            var sysInstrumentsPromise = dal.Get("SystemInstrument", {})
+            .then(result =>{
+                systemInstruments = result;
+                console.log('dal.Get( system ) Completed with ' + result.length + ' Itesm.');
+            })
+            .catch(err => console.log('Error from Dal when quering for dest -> ' + dest + '\n' + err));        
+
+            promises.push(sysInstrumentsPromise);        
+        }
+            
+        var p = Promise.all(promises).then(_ => console.log('All dal promises comeplted.'))
+        .catch(err => console.log('ERROR from one or more promises. \n' + err));
+
+        return p;
+    
+    }).catch(err => console.log(err))
 }
+
+
+
+    
+
+
 
 
 

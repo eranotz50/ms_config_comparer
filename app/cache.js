@@ -1,16 +1,15 @@
-var Util = require('Util');
+var Util = require('util');
 const fs = require('fs');
-
 
 module.exports = function Cache(basePath){
 
-    this.fromJson = function(source){
+    this.Get = function(source){
             return new Promise(function(resolve,reject){
                     
-                var jsonFilePath = Util.format('%s/%s.json',basePath,source);
-                fs.access(jsonFilePath), fs.F_OK,(err) => {
+                var jsonFilePath = Util.format('%s/%s.json',basePath,source.toLowerCase());
+                fs.access(jsonFilePath, fs.F_OK,function(err) {
                     if(err){
-                        reject('File does not exist -> ' + jsonFilePath + '\\n' + err);                
+                        reject('File does not exist -> ' + jsonFilePath + '\n' + err);                
                     }
                     else{        
                         fs.readFile(jsonFilePath, 'utf8', function(err, contents) {
@@ -22,11 +21,11 @@ module.exports = function Cache(basePath){
                         }
                     });
                 }
-            }
+            })
         })
     }
 
-    this.toJson = function(source,contents){
+    this.Save = function(source,contents){
             return new Promise(function(resolve,reject){
                         
                 var jsonFilePath = Util.format('%s/%s.json',basePath,source);

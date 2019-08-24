@@ -1,8 +1,11 @@
 var Util = require('util');
 var MongoClient = require('mongodb').MongoClient;
 
-function Dal(url,dbName){
+module.exports = function Dal(config){
     
+    var url = config.Url;
+    var dbName = config.DbName;
+
     var _self = this;
     _self.IsConnected = function(){
         return _self.Db != "undefined";
@@ -58,26 +61,5 @@ function Dal(url,dbName){
 
 }
 
-module.exports.Dal = Dal
 
 
-/*
-
-MongoClient.connect(url,function(err,server){
-
-    console.log('connected')
-
-    var dbo = server.db(dbName)
-    var collection = dbo.collection("OutputInstrument")
-
-
-
-    
-    collection.find({ OutputGroupId : 3}).toArray()
-
-
-});
-
-
-
-*/
