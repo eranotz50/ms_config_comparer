@@ -57,7 +57,7 @@ Promise.all(promises)
 
 if(sourceRes != null && destRes != null){
 
-    var spreadCompareResult = Comparer.Spread(sourceRes.Instruments,destRes.Instruments);
+   // var spreadCompareResult = Comparer.Spread(sourceRes.Instruments,destRes.Instruments);
 
 }
 

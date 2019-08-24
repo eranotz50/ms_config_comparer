@@ -36,7 +36,7 @@ typeof _self.Db == "undefined"
 }
 module.exports.Comparer =  function (){
    return {
-        SpreadDiff : SpreadDiff  
+        Spread : SpreadDiff  
    }       
 }
 
