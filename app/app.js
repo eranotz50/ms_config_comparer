@@ -2,7 +2,8 @@ var source =  { OutputGroupName : 'Fortrade' , OutputGroupId : 3} ;
 var dest  =   { OutputGroupName : 'GCM' , OutputGroupId : 1};
 
 var util = require('util');
-var comparer = require('./comparer.js').Comparer;
+var Comparer = require('./comparer.js').Comparer;
+var comparer = Comparer();
 
 var Dal = require('./dal.js');
 var dalConfig = require('./Config/dal.json');
@@ -42,7 +43,10 @@ console.log('Running..');
                  console.log('GetFromDal() complete.')
         
                 if(sourceInstruments != null && destInstruments != null && systemInstruments != null){
-                    var spreadCompareResult = Comparer.Spread(sourceInstruments,destInstruments,systemInstruments);         
+                    var spreadCompareResult = Comparer.Spread(sourceInstruments,destInstruments,systemInstruments); 
+                    
+                    
+                    
                 }         
             }).catch(err => console.log("Unexpected error from GetFromDal() -> " + err))       
         } )
