@@ -5,12 +5,11 @@ module.exports = function Dal(config){
     
     var url = config.Url;
     var dbName = config.DbName;
-
+    
     var _self = this;
     _self.IsConnected = function(){
         return _self.Db != "undefined";
     }
-
 
     this.Connect = function(){
         return new Promise((resolve,reject) => {
