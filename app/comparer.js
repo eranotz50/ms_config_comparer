@@ -3,60 +3,37 @@ function SpreadDiff(systemInstruments,sourceInstruments,destInstruments){
 
     sourceInstruments = sourceInstruments.filter(i => i._t === "AggregatedOutputInstrument");
     destInstruments = destInstruments.filter(i => i._t === "AggregatedOutputInstrument");
-
-    sourceInstruments
+    systemInstruments = systemInstruments.filter(i => i._t === "AggregatedSystemInstrument");
 
     var sourceDic = ToDictionary(sourceInstruments, "SystemInstrument");
     var destDic = ToDictionary(destInstruments, "SystemInstrument");
 
-    var results = {
-        headers = "Symbol"   
-    }   
+    var results = [];   
 
     systemInstruments.forEach(sys => {
         
-        var res = { Symbol : sys.Symbol};
+        var res = { Symbol : sys.Name};
 
         var source = sourceDic[sys._id];    
         if(source){
 
+            if(source.Spread && source.Spread != null){
+                res[source.OutputGroupName] = source.Spread._t;    
+            }            
         }
         
         var dest = destDic[sys._id];
         if(dest){
 
+            if(dest.Spread && dest.Spread != null){
+                res[dest.OutputGroupName] = dest.Spread._t;
+            }
         }
+
+        results.push(res);
     });
 
-
-    /*var results = [];
-
-    sourceOutputsInst.forEach(source => {
-        
-        var symbol = sysInstDic[source.SystemInstrumentId].Symbol;
-        
-        var result = { Symbol : symbol , SourceSpread : source.Spread};
-        results.push(result);
-
-        if(destDic[source.SystemInstrument]){
-            var dest = destDic[source.SystemInstrument];
-            result.DestSpread = dest.Spread;
-            dest.isFound = true;
-        }      
-    });
-        
-    destOutputInst.forEach( dest => {
-        if(typeof dest.isFound == "undefined"){
-            
-            var symbol = sysInstDic[source.SystemInstrumentId].Symbol;   
-            
-            var result = { Symbol : symbol , DestSpread : source.Spread};
-            results.push(result);
-        }        
-    });*/
-
-//typeof _self.Db == "undefined"  
-  //  return results;
+    return results;
 }
 module.exports.Comparer =  function (){
    return {
@@ -71,4 +48,6 @@ function ToDictionary(arr,keySelector){
             dic[element[keySelector]] = element;
         }
     });
+
+    return dic;
 }

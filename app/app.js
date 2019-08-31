@@ -1,22 +1,18 @@
+if(!Array.prototype.first){
+    Array.prototype.first = function(predicate){
 
-
-
-Array.prototype.first = (arr,predicate) => {
-
-    var firstItem = null;
-
-    for(var i = 0 ; i < this.length && firstItem == null; i++){
-        if(predicate(this[i])){
-            firstItem = this[i];            
+        var firstItem = null;
+    
+        for(var i = 0 ; i < this.length && firstItem == null; i++){
+            if(predicate(this[i])){
+                firstItem = this[i];            
+            }
         }
-    }
+    
+        return firstItem;
+    }    
 
-    return firstItem;
 }
-
-
-var test = new  Array(1,2,3,4,5,6,7,8,9);
-var item = test.first(test,i => i === 5);
 
 
 var source =  { OutputGroupName : 'Fortrade' , OutputGroupId : 3} ;
