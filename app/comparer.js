@@ -1,10 +1,35 @@
 
-function SpreadDiff(sourceOutputsInst,destOutputInst,systemInstruments){
+function SpreadDiff(systemInstruments,sourceInstruments,destInstruments){
 
-    var destDic = ToDictionary(destOutputInst, "SystemInstrumentId");
-    var sysInstDic = ToDictionary(systemInstruments,"Id")
+    sourceInstruments = sourceInstruments.filter(i => i._t === "AggregatedOutputInstrument");
+    destInstruments = destInstruments.filter(i => i._t === "AggregatedOutputInstrument");
 
-    var results = [];
+    sourceInstruments
+
+    var sourceDic = ToDictionary(sourceInstruments, "SystemInstrument");
+    var destDic = ToDictionary(destInstruments, "SystemInstrument");
+
+    var results = {
+        headers = "Symbol"   
+    }   
+
+    systemInstruments.forEach(sys => {
+        
+        var res = { Symbol : sys.Symbol};
+
+        var source = sourceDic[sys._id];    
+        if(source){
+
+        }
+        
+        var dest = destDic[sys._id];
+        if(dest){
+
+        }
+    });
+
+
+    /*var results = [];
 
     sourceOutputsInst.forEach(source => {
         
@@ -28,11 +53,10 @@ function SpreadDiff(sourceOutputsInst,destOutputInst,systemInstruments){
             var result = { Symbol : symbol , DestSpread : source.Spread};
             results.push(result);
         }        
-    });
+    });*/
 
-typeof _self.Db == "undefined"
-  
-    return results;
+//typeof _self.Db == "undefined"  
+  //  return results;
 }
 module.exports.Comparer =  function (){
    return {

@@ -17,7 +17,17 @@ module.exports = function Cache(basePath){
                             reject('Error reading from file -> ' + jsonFilePath);
                         }   
                         else{
-                            resolve(contents);
+
+                            var items = {};
+
+                            try{
+                                var items = JSON.parse(contents);
+                            }
+                            catch(err){
+                                reject('Error parsing contentns from -> ' + jsonFilePath);
+                            }
+                            
+                            resolve(items);
                         }
                     });
                 }
@@ -29,7 +39,9 @@ module.exports = function Cache(basePath){
             return new Promise(function(resolve,reject) {
                         
                 var jsonFilePath = Util.format('%s\\%s.json',basePath,source);
-                fs.writeFile(jsonFilePath, items, function(err) {
+                var json = JSON.stringify(items);
+
+                fs.writeFile(jsonFilePath, json, function(err) {
                     if(err){
                         reject('File does not exist -> ' + jsonFilePath + '\\n' + err);                
                     }

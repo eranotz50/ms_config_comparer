@@ -1,3 +1,24 @@
+
+
+
+Array.prototype.first = (arr,predicate) => {
+
+    var firstItem = null;
+
+    for(var i = 0 ; i < this.length && firstItem == null; i++){
+        if(predicate(this[i])){
+            firstItem = this[i];            
+        }
+    }
+
+    return firstItem;
+}
+
+
+var test = new  Array(1,2,3,4,5,6,7,8,9);
+var item = test.first(test,i => i === 5);
+
+
 var source =  { OutputGroupName : 'Fortrade' , OutputGroupId : 3} ;
 var dest  =   { OutputGroupName : 'GCM' , OutputGroupId : 1};
 
@@ -11,50 +32,46 @@ var _dal = new Dal(dalConfig);
 var Cache = require('./cache.js');
 var _cache = new Cache(__dirname  + '\\Cache');
 
-var systemInstruments = null;
-var sourceInstruments = null;
-var destInstruments = null;
-
 console.log('Running..');
-
 
 (function () {
 
     GetFromCache()
-        .then( result => {
+        .then(cacheResult => {
+            
             console.log('GetFromCache() completed successfully')
             
-            LogCollections('Cache',result);   
+            LogCollections('Cache',cacheResult);   
             
-            GetFromDal().then( result => {        
+            var promise = undefined;
+
+            if(!cacheResult.systemInstruments|| !cacheResult.sourceInstruments || !cacheResult.destInstruments){
+                console.log('GetFromDal()');
+
+                promise = GetFromDal().then(dalResult => {        
                 
-                LogCollections('Dal',result);    
+                    LogCollections('Dal',dalResult);    
+    
+                    SaveToCache(dalResult)
+                        .then(_ => "SaveToCache() completed.")
+                        .catch(err => "Error in SaveToCache() -> " + err);       
+                        
+                    return dalResult;    
+                })
+                .catch(err => console.log("Unexpected error from GetFromDal() -> " + err))                                   
+            }                     
+            else{
+               console.log('TakeFromCache()');
+               promise  = Promise.resolve(cacheResult);
+            }
+            
+            promise.then(result => {
+                var spreadDiffResults = _comparer.Spread(result.systemInstruments,result.sourceInstruments,result.destInstruments);
+            });
 
-                SaveToCache(result)
-                    .then(_ => "SaveToCache() completed.")
-                    .catch(err => "Error in SaveToCache() -> " + err);
 
-                 //var spreadCompareResult = _comparer.Spread(result.systemInstrumentsתresult.sourceInstruments,result.destInstruments);                 
-
-
-            })
-            .catch(err => console.log("Unexpected error from GetFromDal() -> " + err))        
         })
-        .catch( err => console.log('GetFromCache() Completed with an ERROR \n ' + err))
-        /*.finally(result => {
-
-            LogCollections('Cache');    
-
-            GetFromDal().then(_ => {        
-
-                    LogCollections('Dal');    
-
-                    if(sourceInstruments != null && destInstruments != null && systemInstruments != null){
-                        var spreadCompareResult = _comparer.Spread(sourceInstruments,destInstruments,systemInstruments);                                                             
-                    } 
-                })              
-                .catch(err => console.log("Unexpected error from GetFromDal() -> " + err))                                       
-        }); */
+        .catch( err => console.log('GetFromCache() Completed with an ERROR \n ' + err))      
 })();
 
 function LogCollections(caller,result){
