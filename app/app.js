@@ -21,14 +21,31 @@ console.log('Running..');
 (function () {
 
     GetFromCache()
-        .then(_ => console.log('GetFromCache() completed successfully'))
+        .then( result => {
+            console.log('GetFromCache() completed successfully')
+            
+            LogCollections('Cache',result);   
+            
+            GetFromDal().then( result => {        
+                
+                LogCollections('Dal',result);    
+
+                SaveToCache(result)
+                    .then(_ => "SaveToCache() completed.")
+                    .catch(err => "Error in SaveToCache() -> " + err);
+
+                 //var spreadCompareResult = _comparer.Spread(result.systemInstrumentsתresult.sourceInstruments,result.destInstruments);                 
+
+
+            })
+            .catch(err => console.log("Unexpected error from GetFromDal() -> " + err))        
+        })
         .catch( err => console.log('GetFromCache() Completed with an ERROR \n ' + err))
-        .finally(_ => {
+        /*.finally(result => {
 
             LogCollections('Cache');    
 
-            GetFromDal()
-                .then(_ => {        
+            GetFromDal().then(_ => {        
 
                     LogCollections('Dal');    
 
@@ -37,33 +54,53 @@ console.log('Running..');
                     } 
                 })              
                 .catch(err => console.log("Unexpected error from GetFromDal() -> " + err))                                       
-        });              
+        }); */
 })();
 
-function LogCollections(caller){
+function LogCollections(caller,result){
     console.log(util.format('After %s -> sourceInstruments = %s, destInstruments =  %s, systemInstruments = %s',caller
-        ,sourceInstruments != null ? sourceInstruments.length + ' Items from Cache' : "null"
-        ,destInstruments != null ? destInstruments.length + ' Items from Cache' : "null"
-        ,systemInstruments != null ? systemInstruments.length + ' Items from Cache' : "null"));
+        ,result.sourceInstruments ? result.sourceInstruments.length + ' Items from Cache' : "null"
+        ,result.destInstruments ? result.destInstruments.length + ' Items from Cache' : "null"
+        ,result.systemInstruments ? result.systemInstruments.length + ' Items from Cache' : "null"));
 }
 
-function  GetFromCache(){
+function GetFromCache(){
 
+    var result = {};
     var promises = [];
 
-    promises.push(_cache.Get(source.OutputGroupName)
-        .then(result => sourceInstruments = result)
+    promises.push(_cache.Get("system")
+        .then(items => result.systemInstruments = items)
         .catch(err => console.log(err)));
 
-    promises.push(_cache.Get(dest.OutputGroupName)
-        .then(result => destInstruments = result)
+    promises.push(_cache.Get("ft")
+        .then(items => result.sourceInstruments = items)
         .catch(err => console.log(err)));
 
-    promises.push(_cache.Get(dalConfig.Collections.SystemInstrument)
-        .then(result => systemInstruments = result)
+    promises.push(_cache.Get("gcm")
+        .then(items => result.destInstruments = items)
+        .catch(err => console.log(err)));
+    
+    return Promise.all(promises).then(_ => result);       
+}
+
+function SaveToCache(result){
+    
+    var promises = [];
+
+    promises.push(_cache.Save("system",result.systemInstruments)
+        .then(msg =>console.log(msg))
         .catch(err => console.log(err)));
 
-    return  Promise.all(promises);
+    promises.push(_cache.Save("ft",result.sourceInstruments)
+        .then(msg => console.log(msg))
+        .catch(err => console.log(err)));
+
+    promises.push(_cache.Save("gcm",result.destInstruments)
+        .then(msg => console.log(msg))
+        .catch(err => console.log(err)));    
+   
+    return Promise.all(promises)
 }
 
 
@@ -75,32 +112,30 @@ function GetFromDal(){
         
         console.log('Connected -> ' + msg);
     
-        if(sourceInstruments == null){
-            promises.push(_dal.Get(dalConfig.Collections.OutputInstrument, { OutputGroupId : source.OutputGroupId})
-                .then(result => {
-                    result.forEach(i => i.OutputGroupName = source.OutputGroupName);
-                    sourceInstruments = result;
-                })
-                .catch(err => console.log('Error from Dal when quering for source -> ' + source + '\n' + err)));            
-        }
-    
-        if(destInstruments == null){    
-            promises.push(_dal.Get(dalConfig.Collections.OutputInstrument, { OutputGroupId : dest.OutputGroupId})
-                .then(result => {                        
-                    result.forEach(i => i.OutputGroupName = dest.OutputGroupName);
-                    destInstruments = result;
-                })
-                .catch(err => console.log('Error from Dal when quering for dest -> ' + dest + '\n' + err)))                    
-        }
+        var result = {};
 
-        if(systemInstruments == null){
+        promises.push(_dal.Get(dalConfig.Collections.OutputInstrument, { OutputGroupId : source.OutputGroupId})
+            .then(items => {
+                items.forEach(i => i.OutputGroupName = source.OutputGroupName);
+                result.sourceInstruments = items;
+            })
+            .catch(err => console.log('Error from Dal when quering for source -> ' + source + '\n' + err)));            
+    
+        promises.push(_dal.Get(dalConfig.Collections.OutputInstrument, { OutputGroupId : dest.OutputGroupId})
+            .then(items => {                        
+                items.forEach(i => i.OutputGroupName = dest.OutputGroupName);
+                result.destInstruments = items;
+            })
+            .catch(err => console.log('Error from Dal when quering for dest -> ' + dest + '\n' + err)))                    
+
             promises.push(_dal.Get(dalConfig.Collections.SystemInstrument, {})
-                .then(result => systemInstruments = result)                    
+                .then(items => {
+                    result.systemInstruments = items;
+                })                    
                 .catch(err => console.log('Error from Dal when quering for dest -> ' + dest + '\n' + err)));                                     
-        }
             
         return Promise.all(promises)
-                .then(_ => console.log('All dal promises comeplted.'))
+                .then(_ => result)
                 .catch(err => console.log('ERROR from one or more promises. \n' + err));
 
     }).catch(err =>console.log('Connection ERROR -> ' + err))
