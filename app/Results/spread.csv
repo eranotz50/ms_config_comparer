@@ -1,406 +1,406 @@
-Symbols,Fortrade,GCM
-GBP_AUD,EntityPartVariableSpread,
-EUR_USD,EntityPartVariableSpread,
-GBP_SGD,EntityPartVariableSpread,
-GBP_USD,EntityPartVariableSpread,
-EUR_ILS,EntityPartVariableSpread,
-CAD_JPY,EntityPartVariableSpread,
-EUR_HUF,EntityPartVariableSpread,
-GAU_TRY - Panda,,
-GBP_NZD,EntityPartVariableSpread,
-USD_CNH,EntityPartVariableSpread,
-XAU_EUR-Panda,,
-NZD_CAD,EntityPartVariableSpread,
-USD_PLN,EntityPartVariableSpread,
-GBP_TRY,EntityPartVariableSpread,
-EUR_PLN,EntityPartVariableSpread,
-EUR_ZAR,EntityPartVariableSpread,
-USD_DKK,EntityPartVariableSpread,
-USD_RUB,EntityPartVariableSpread,
-USD_HKD,,
-XAG_USD,EntityPartVariableSpread,
-XAU_USD,,
-PALLADIUM,,
-SOYBEAN,,
-AUD_USD,EntityPartVariableSpread,
-CAD_CHF,EntityPartVariableSpread,
-EUR_CHF,EntityPartVariableSpread,
-USD_SEK,EntityPartVariableSpread,
-AUD_JPY,EntityPartVariableSpread,
-EUR_SEK,EntityPartVariableSpread,
-GBP_JPY,EntityPartVariableSpread,
-EUR_AUD,EntityPartVariableSpread,
-EUR_TRY,EntityPartVariableSpread,
-NZD_JPY,EntityPartVariableSpread,
-USD_SGD,EntityPartVariableSpread,
-AUD_CHF,EntityPartVariableSpread,
-AUD_CAD,EntityPartVariableSpread,
-AUD_NZD,EntityPartVariableSpread,
-EUR_NOK,EntityPartVariableSpread,
-GAU_USD Panda,,
-CHF_JPY,EntityPartVariableSpread,
-EUR_CAD,EntityPartVariableSpread,
-GBP_CHF,EntityPartVariableSpread,
-USD_CHF,EntityPartVariableSpread,
-USD_HUF,EntityPartVariableSpread,
-USD_MXN,EntityPartVariableSpread,
-EUR_DKK,EntityPartVariableSpread,
-NZD_USD,EntityPartVariableSpread,
-USD_JPY,EntityPartVariableSpread,
-XAU_GBP Panda,,
-USD_TRY,EntityPartVariableSpread,
-USD_NOK,EntityPartVariableSpread,
-EUR_JPY,EntityPartVariableSpread,
-EUR_GBP,EntityPartVariableSpread,
-EUR_NZD,EntityPartVariableSpread,
-NZD_CHF,EntityPartVariableSpread,
-USD_ILS,EntityPartVariableSpread,
-XAU_TRY - Panda,,
-GBP_CAD,EntityPartVariableSpread,
-USD_ZAR,,
-USD_CAD,EntityPartVariableSpread,
-TRYBASK,,
-CrudeOIL,,
-HEATING_OIL,,
-ASX200,EntityPartVariableSpread,
-#ALIBABA,,
-CORN,,
-HSI,,
-SUGAR#11,,
-#VRX,,
-#NDA-SEK,,
-#SIE,,
-#RIO,,
-#ADM,,
-#BNZL,,
-#FRES,,
-#CNA,,
-#HIK,,
-#KGF,,
-#LAND,,
-#RRS,,
-#SGE,,
-OIH,,
-FSTEMIB40,,
-#CAT,,
-#YAHOO,,
-#HSBA,,
-#LHA,,
-TQQQ,,
-#LLOY.L,,
-#CPG,,
-#CCL,,
-#ITRK,,
-#RMG,,
-Ripple,EntityPartVariableSpread,
-#ROVIO,,
-GXBT,,
-BRR,,
-XLF,,
-#BAIDU,,
-#CHEVRON,,
-#JNJ,,
-#MORGAN_STA_old,,
-#PMI,,
-#SAN.MC,,
-#CS.PA,,
-#DANSKE,,
-#BN,,
-BITCOIN,,
-#CRH,,
-#GKN,,
-#SL,,
-#ALTABA,,
-Litecoin,,
-Starbucks,,
-IBEX35,,
-PSI20,,
-#JP_MORGAN,,
-#PG,,
-#GROUPON,,
-#RDSA,,
-#SAF,,
-#SAB,,
-#TEN,,
-#TSCO,,
-#RWE,,
-#BMW,,
-#BAS,,
-#SWN,,
-#TOYOTA,,
-#NTDOY,,
-#EZJ,,
-#LSE,,
-#IHG,,
-#NXT,,
-#SN,,
-#SVT,,
-#UU,,
-GBP FUT Jun 17,,
-Ethereum,,
-#CISCO,,
-#MCDONALDS,,
-#TWITTER,,
-#FIREEYE,,
-#ASML,,
-#BARC,,
-#BATS,,
-#GSK,,
-#SU,,
-#CA,,
-#DAI,,
-#NOKIA,,
-#BRBY,,
-#INF,,
-#MERL,,
-#VOW3.DE,,
-#SNAPCHAT,,
-#DROPBOX,EntityPartVariableSpread,
-PLATINUM,,
-GASOLINE,,
-OMXS30,,
-#BBVA.MC,,
-#BLT,,
-#IMB,,
-#MKS,,
-#STAN,,
-#TEVA,EntityPartVariableSpread,
-L,,
-BRENT_OIL,,
-NATURAL_GAS,,
-NASDAQ 100,,
-#BOA,,
-#NFLX,,
-#ADS.DE,,
-#GAM,,
-#SPY,,
-#AZN,,
-#MDC,,
-#RSA,,
-#WTB,,
-#NVDA,EntityPartVariableSpread,
-TST/SMBL2,,
-WTI,,
-NIKE,,
-NIFTY,,
-WHEAT,,
-COTTON#2,,
-#AT&T,,
-#MICROSOFT,,
-#POTASH,,
-#HP,,
-#GALP,,
-#PHIA,,
-#TEL,,
-#AIR,,
-#CCH,,
-#OML,,
-#PSON,,
-#REL,,
-#RB,,
-#WPP,,
-#IBM,,
-TST/SMBL3,,
-SMI,,
-#GS,,
-#PFIZER,,
-#BAYN.DE,,
-#ALV.DE,,
-#MNDI,,
-#TEF,,
-#ITX,,
-#REP,,
-#BAPO,,
-#USO,,
-#HMSO,,
-#INTU,,
-#ITV,,
-#PPB,,
-#SBRY,,
-#TPK,,
-#SOGO,EntityPartVariableSpread,
-Adobe,,
-CAC40,,
-CNA50,,
-#BERKSHIRE,,
-Russell 2000 ,,
-#DISNEY,,
-#BNP,,
-#BKIA,,
-#CBK,,
-#SAP,,
-#STL,,
-#UNA,,
-#IBE,,
-10Y_T-NOTES,,
-5Y_T-NOTES,,
-#AHT,,
-#BLND,,
-#BDEV,,
-#DCC,,
-#DLG,,
-#EXPN,,
-#NG,,
-#SMIN,,
-#RR,,
-#MORGAN_STA,,
-TSR20,,
-EEA,,
-COPPER,,
-DJEXX50,,
-WIG20,,
-#FERRARI,,
-#FACEBOOK,,
-#ELE,,
-#AAL,,
-#DGE,,
-#AMD,,
-AEX25,,
-DAX30,,
-NIKKEI225,,
-#AMERICAN_E,,
-#GM,,
-#GOOGLE,,
-#JDCOM,,
-#WAL_MART,,
-#AMERICAN_A,,
-#FCA,,
-#UG,,
-#G,,
-#ENI,,
-#VK,,
-#SPM,,
-#ISP,,
-PNCUSD panda,,
-#III,,
-#CPI,,
-#LGEN,,
-EUR_MYR,,
-W,,
-OMXC20CAP,,
-#GPRO,,
-#INTEL,,
-#SINA,,
-#ZYNGA,,
-#SEB-A,,
-#VOD,,
-#DPW,,
-#EOAN,,
-#UBI,,
-FUM1V - delete,,
-#GLEN.L,,
-#BA,,
-#AV,,
-#BKG,,
-#ABF,,
-#PFG,,
-#RBS.L,,
-#SKY,,
-#ABI.BR,,
-#APPLE,,
-#COCA-COLA,,
-#LINKEDIN,,
-#TSLA,,
-#YANDEX,,
-#VERIZON,,
-#DTE.DE,,
-#ENG,,
-#DBK,,
-#GLE,,
-30Y_T-BOND,,
-#ANTO,,
-#HL,,
-#IAG,,
-#SDR,,
-#WPG,,
-#TUI,,
-BITCOINTEST,,
-#BOEING,,
-#VISA,,
-#GAS,,
-#DC.L,,
-#STJ,,
-#ULVR,,
-DASH,,
-USD_MYR,,
-#SPOTIFY,,
-PPH,,
-Dollar Index,,
-FTSE 100,,
-DJ30,,
-S&P500,,
-#AMAZON,,
-#EXXONMOBIL,,
-#GE,,
-#PAYPAL,,
-#BP,,
-SQQQ,,
-#AF,,
-#TCG,,
-#BAB,,
-#BT.A,,
-#JMAT,,
-#PSN,,
-#PRU,,
-#MRW,,
-#SSE,,
-#SHP,,
-#TW,,
-#ROYAL_CARB,,
-TST/SMBL,,
-K200,,
-#CITIGROUP,,
-#XIAOMI,,
-#CRONOS,,
-#GWPH,,
-#CGC,,
-#AURORA,,
-KOSPI200,,
-TRS20,,
-#TLRY,,
-XAU_AUD,,
-XAG_AUD,,
-#CBA,,
-#APT,,
-#NAB,,
-#WBC,,
-#A2M,,
-#ANZ,,
-#CSL,,
-#NCM,,
-#MQG,,
-#WES,,
-#WPL,,
-#WOW,,
-#COL,,
-#TWE,,
-#ALL,,
-JAPAN_BOND,,
-EURO-BUND,,
-#UBER,,
-#MMM,,
-#ADBE,,
-#AKAM,,
-#MO,,
-#AMAT,,
-#ADSK,,
-#BBY,,
-#CBOE,,
-#CNP,,
-#CL,,
-#CME,,
-#DE,,
-#DWDP,,
-#EBAY,,
-#EA,,
-#EXPE,,
-#FDX,,
-#GRMN,,
-#KMB,,
-#KHC,,
-#LLY,,
-#LMT,,
-#LOW,,
-#NTAP,,
-#NKE,,
-#WFC,,
+Symbols,SystemInstrument,Fortrade,GCM
+GBP_AUD,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_USD,_t -> EntityPartVariableSpread; MinSpread -> 3; MaxSpread -> -1; BidMarkup -> -1; AskMarkup -> 2; ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GBP_SGD,_t -> EntityPartVariableSpread; MinSpread -> 700; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 700; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GBP_USD,_t -> EntityPartVariableSpread; MinSpread -> 6; MaxSpread -> -1; BidMarkup -> -3; AskMarkup -> 4; ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_ILS,_t -> EntityPartVariableSpread; MinSpread -> 600; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 1600; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+CAD_JPY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_HUF,_t -> EntityPartVariableSpread; MinSpread -> 750; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 750; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GAU_TRY - Panda,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+GBP_NZD,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_CNH,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> -200; AskMarkup -> 200; ,_t -> EntityPartVariableSpread; MinSpread -> 450; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+XAU_EUR-Panda,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+NZD_CAD,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 35; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_PLN,_t -> EntityPartVariableSpread; MinSpread -> 450; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 450; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GBP_TRY,_t -> EntityPartVariableSpread; MinSpread -> 150; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_PLN,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_ZAR,_t -> EntityPartVariableSpread; MinSpread -> 2500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 2500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_DKK,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_RUB,_t -> EntityPartVariableSpread; MinSpread -> 2000; MaxSpread -> -1; BidMarkup -> -3000; AskMarkup -> 3000; ,_t -> EntityPartVariableSpread; MinSpread -> 7000; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_HKD,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+XAG_USD,_t -> EntityPartVariableSpread; MinSpread -> 4; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+XAU_USD,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+PALLADIUM,_t -> EntityPartVariableSpread; MinSpread -> 250; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+SOYBEAN,_t -> EntityPartVariableSpread; MinSpread -> 75; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+AUD_USD,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -2; AskMarkup -> 4; ,_t -> EntityPartVariableSpread; MinSpread -> 10; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+CAD_CHF,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_CHF,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -6; AskMarkup -> 6; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_SEK,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+AUD_JPY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -2; AskMarkup -> 2; ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_SEK,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GBP_JPY,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_AUD,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_TRY,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+NZD_JPY,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 25; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_SGD,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+AUD_CHF,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+AUD_CAD,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+AUD_NZD,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -1; AskMarkup -> 1; ,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_NOK,_t -> EntityPartVariableSpread; MinSpread -> 900; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 400; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GAU_USD Panda,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+CHF_JPY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_CAD,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 65; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+GBP_CHF,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_CHF,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -6; AskMarkup -> 6; ,_t -> EntityPartVariableSpread; MinSpread -> 25; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_HUF,_t -> EntityPartVariableSpread; MinSpread -> 750; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 750; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_MXN,_t -> EntityPartVariableSpread; MinSpread -> 1000; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 1000; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_DKK,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+NZD_USD,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -2; AskMarkup -> 3; ,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_JPY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -4; AskMarkup -> 4; ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+XAU_GBP Panda,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+USD_TRY,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_NOK,_t -> EntityPartVariableSpread; MinSpread -> 1000; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 1000; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_JPY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -3; AskMarkup -> 3; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_GBP,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -3; AskMarkup -> 3; ,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+EUR_NZD,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 35; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+NZD_CHF,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_ILS,_t -> EntityPartVariableSpread; MinSpread -> 600; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 1600; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+XAU_TRY - Panda,_t -> EntityPartVariableSpread; MinSpread -> 450; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+GBP_CAD,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> -5; AskMarkup -> 5; ,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+USD_ZAR,_t -> EntityPartVariableSpread; MinSpread -> 1000; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+USD_CAD,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> -3; AskMarkup -> 3; ,_t -> EntityPartVariableSpread; MinSpread -> 25; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+TRYBASK,_t -> EntityPartVariableSpread; MinSpread -> 250; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+CrudeOIL,_t -> EntityPartVariableSpread; MinSpread -> 1; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+HEATING_OIL,_t -> EntityPartVariableSpread; MinSpread -> 21; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+ASX200,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist
+#ALIBABA,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+CORN,_t -> EntityPartVariableSpread; MinSpread -> 75; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+HSI,_t -> EntityPartVariableSpread; MinSpread -> 25; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+SUGAR#11,_t -> EntityPartVariableSpread; MinSpread -> 9; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#VRX,_t -> EntityPartVariableSpread; MinSpread -> 41; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#NDA-SEK,_t -> EntityPartVariableSpread; MinSpread -> 31; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SIE,_t -> EntityPartVariableSpread; MinSpread -> 101; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#RIO,_t -> EntityPartVariableSpread; MinSpread -> 700; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ADM,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BNZL,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#FRES,_t -> EntityPartVariableSpread; MinSpread -> 250; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CNA,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#HIK,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#KGF,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#LAND,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RRS,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SGE,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+OIH,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+FSTEMIB40,_t -> EntityPartVariableSpread; MinSpread -> 10; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#CAT,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#YAHOO,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#HSBA,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#LHA,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+TQQQ,_t -> EntityPartVariableSpread; MinSpread -> 14; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#LLOY.L,_t -> EntityPartVariableSpread; MinSpread -> 10; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CPG,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CCL,_t -> EntityPartVariableSpread; MinSpread -> 500; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ITRK,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RMG,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+Ripple,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist
+#ROVIO,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+GXBT,Use SystemInstrumet Default,Instrument Does Not Exist,Instrument Does Not Exist
+BRR,Use SystemInstrumet Default,Instrument Does Not Exist,Instrument Does Not Exist
+XLF,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+#BAIDU,_t -> EntityPartVariableSpread; MinSpread -> 151; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#CHEVRON,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#JNJ,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#MORGAN_STA_old,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PMI,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+#SAN.MC,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#CS.PA,_t -> EntityPartVariableSpread; MinSpread -> 16; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#DANSKE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BN,_t -> EntityPartVariableSpread; MinSpread -> 12; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+BITCOIN,_t -> EntityPartVariableSpread; MinSpread -> 1600; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CRH,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#GKN,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+#SL,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ALTABA,_t -> EntityPartVariableSpread; MinSpread -> 27; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+Litecoin,_t -> EntityPartVariableSpread; MinSpread -> 600; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+Starbucks,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+IBEX35,_t -> EntityPartVariableSpread; MinSpread -> 5; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+PSI20,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#JP_MORGAN,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#PG,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GROUPON,_t -> EntityPartVariableSpread; MinSpread -> 5; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#RDSA,_t -> EntityPartVariableSpread; MinSpread -> 450; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SAF,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SAB,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TEN,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TSCO,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RWE,_t -> EntityPartVariableSpread; MinSpread -> 6; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BMW,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BAS,_t -> EntityPartVariableSpread; MinSpread -> 16; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SWN,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TOYOTA,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NTDOY,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#EZJ,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#LSE,_t -> EntityPartVariableSpread; MinSpread -> 400; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#IHG,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NXT,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SN,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SVT,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#UU,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+GBP FUT Jun 17,Use SystemInstrumet Default,Instrument Does Not Exist,Instrument Does Not Exist
+Ethereum,_t -> EntityPartVariableSpread; MinSpread -> 700; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CISCO,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#MCDONALDS,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#TWITTER,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#FIREEYE,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ASML,_t -> EntityPartVariableSpread; MinSpread -> 35; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BARC,_t -> EntityPartVariableSpread; MinSpread -> 55; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BATS,_t -> EntityPartVariableSpread; MinSpread -> 850; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GSK,_t -> EntityPartVariableSpread; MinSpread -> 450; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SU,_t -> EntityPartVariableSpread; MinSpread -> 18; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#CA,_t -> EntityPartVariableSpread; MinSpread -> 8; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DAI,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NOKIA,_t -> EntityPartVariableSpread; MinSpread -> 9; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BRBY,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#INF,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MERL,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#VOW3.DE,_t -> EntityPartVariableSpread; MinSpread -> 40; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SNAPCHAT,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DROPBOX,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist
+PLATINUM,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> -50; AskMarkup -> 50; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+GASOLINE,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+OMXS30,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BBVA.MC,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BLT,_t -> EntityPartVariableSpread; MinSpread -> 400; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#IMB,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MKS,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#STAN,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TEVA,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist
+L,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+BRENT_OIL,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+NATURAL_GAS,_t -> EntityPartVariableSpread; MinSpread -> 8; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+NASDAQ 100,_t -> EntityPartVariableSpread; MinSpread -> 150; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BOA,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#NFLX,_t -> EntityPartVariableSpread; MinSpread -> 71; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ADS.DE,_t -> EntityPartVariableSpread; MinSpread -> 81; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GAM,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SPY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AZN,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MDC,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RSA,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WTB,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NVDA,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist
+TST/SMBL2,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+WTI,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+NIKE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+NIFTY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+WHEAT,_t -> EntityPartVariableSpread; MinSpread -> 75; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+COTTON#2,_t -> EntityPartVariableSpread; MinSpread -> 25; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#AT&T,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#MICROSOFT,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#POTASH,_t -> EntityPartVariableSpread; MinSpread -> 21; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#HP,_t -> EntityPartVariableSpread; MinSpread -> 8; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GALP,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PHIA,_t -> EntityPartVariableSpread; MinSpread -> 17; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#TEL,_t -> EntityPartVariableSpread; MinSpread -> 210; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AIR,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CCH,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#OML,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PSON,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#REL,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RB,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WPP,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#IBM,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+TST/SMBL3,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+SMI,_t -> EntityPartVariableSpread; MinSpread -> 85; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#GS,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#PFIZER,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BAYN.DE,_t -> EntityPartVariableSpread; MinSpread -> 110; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ALV.DE,_t -> EntityPartVariableSpread; MinSpread -> 209; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#MNDI,_t -> EntityPartVariableSpread; MinSpread -> 250; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#TEF,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ITX,_t -> EntityPartVariableSpread; MinSpread -> 8; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#REP,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BAPO,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#USO,_t -> EntityPartVariableSpread; MinSpread -> 3; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#HMSO,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#INTU,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ITV,_t -> EntityPartVariableSpread; MinSpread -> 10; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PPB,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SBRY,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TPK,_t -> EntityPartVariableSpread; MinSpread -> 150; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SOGO,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default
+Adobe,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+CAC40,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+CNA50,_t -> EntityPartVariableSpread; MinSpread -> 35; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BERKSHIRE,_t -> EntityPartVariableSpread; MinSpread -> 37; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+Russell 2000 ,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#DISNEY,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BNP,_t -> EntityPartVariableSpread; MinSpread -> 18; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BKIA,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#CBK,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SAP,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#STL,_t -> EntityPartVariableSpread; MinSpread -> 251; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#UNA,_t -> EntityPartVariableSpread; MinSpread -> 150; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#IBE,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+10Y_T-NOTES,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+5Y_T-NOTES,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#AHT,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BLND,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BDEV,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DCC,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DLG,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#EXPN,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NG,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SMIN,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RR,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MORGAN_STA,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+TSR20,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+EEA,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+COPPER,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+DJEXX50,_t -> EntityPartVariableSpread; MinSpread -> 5; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+WIG20,_t -> EntityPartVariableSpread; MinSpread -> 400; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#FERRARI,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#FACEBOOK,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ELE,_t -> EntityPartVariableSpread; MinSpread -> 11; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AAL,_t -> EntityPartVariableSpread; MinSpread -> 130; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DGE,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AMD,_t -> EntityPartVariableSpread; MinSpread -> 12; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+AEX25,_t -> EntityPartVariableSpread; MinSpread -> 103; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+DAX30,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+NIKKEI225,_t -> EntityPartVariableSpread; MinSpread -> 35; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#AMERICAN_E,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GM,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GOOGLE,_t -> EntityPartVariableSpread; MinSpread -> 97; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#JDCOM,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#WAL_MART,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#AMERICAN_A,_t -> EntityPartVariableSpread; MinSpread -> 14; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#FCA,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#UG,_t -> EntityPartVariableSpread; MinSpread -> 14; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#G,_t -> EntityPartVariableSpread; MinSpread -> 3; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ENI,_t -> EntityPartVariableSpread; MinSpread -> 4; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#VK,_t -> EntityPartVariableSpread; MinSpread -> 4; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SPM,_t -> EntityPartVariableSpread; MinSpread -> 2; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ISP,_t -> EntityPartVariableSpread; MinSpread -> 4; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+PNCUSD panda,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#III,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CPI,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#LGEN,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+EUR_MYR,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+W,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+OMXC20CAP,_t -> EntityPartVariableSpread; MinSpread -> 900; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#GPRO,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#INTEL,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SINA,_t -> EntityPartVariableSpread; MinSpread -> 24; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ZYNGA,_t -> EntityPartVariableSpread; MinSpread -> 4; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#SEB-A,_t -> EntityPartVariableSpread; MinSpread -> 21; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#VOD,_t -> EntityPartVariableSpread; MinSpread -> 70; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#DPW,_t -> EntityPartVariableSpread; MinSpread -> 6; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#EOAN,_t -> EntityPartVariableSpread; MinSpread -> 9; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#UBI,_t -> EntityPartVariableSpread; MinSpread -> 2; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+FUM1V - delete,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#GLEN.L,_t -> EntityPartVariableSpread; MinSpread -> 33; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BA,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AV,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BKG,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ABF,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PFG,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#RBS.L,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SKY,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ABI.BR,_t -> EntityPartVariableSpread; MinSpread -> 90; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#APPLE,_t -> EntityPartVariableSpread; MinSpread -> 26; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#COCA-COLA,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#LINKEDIN,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TSLA,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#YANDEX,_t -> EntityPartVariableSpread; MinSpread -> 31; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#VERIZON,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#DTE.DE,_t -> EntityPartVariableSpread; MinSpread -> 17; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ENG,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#DBK,_t -> EntityPartVariableSpread; MinSpread -> 17; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GLE,_t -> EntityPartVariableSpread; MinSpread -> 9; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+30Y_T-BOND,_t -> EntityPartVariableSpread; MinSpread -> 7; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#ANTO,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#HL,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#IAG,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SDR,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WPG,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TUI,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+BITCOINTEST,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+#BOEING,_t -> EntityPartVariableSpread; MinSpread -> 81; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#VISA,_t -> EntityPartVariableSpread; MinSpread -> 21; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GAS,_t -> EntityPartVariableSpread; MinSpread -> 9; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DC.L,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#STJ,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ULVR,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+DASH,_t -> EntityPartVariableSpread; MinSpread -> 700; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+USD_MYR,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SPOTIFY,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+PPH,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+Dollar Index,_t -> EntityPartVariableSpread; MinSpread -> 110; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+FTSE 100,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+DJ30,_t -> EntityPartVariableSpread; MinSpread -> 4; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+S&P500,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#AMAZON,_t -> EntityPartVariableSpread; MinSpread -> 179; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#EXXONMOBIL,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#GE,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#PAYPAL,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#BP,_t -> EntityPartVariableSpread; MinSpread -> 150; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+SQQQ,_t -> EntityPartVariableSpread; MinSpread -> 14; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#AF,_t -> EntityPartVariableSpread; MinSpread -> 3; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TCG,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BAB,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BT.A,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#JMAT,_t -> EntityPartVariableSpread; MinSpread -> 300; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PSN,_t -> EntityPartVariableSpread; MinSpread -> 200; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#PRU,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MRW,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SSE,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#SHP,_t -> EntityPartVariableSpread; MinSpread -> 100; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TW,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ROYAL_CARB,_t -> EntityPartVariableSpread; MinSpread -> 80; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+TST/SMBL,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+K200,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+#CITIGROUP,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#XIAOMI,_t -> EntityPartVariableSpread; MinSpread -> 14; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CRONOS,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#GWPH,_t -> EntityPartVariableSpread; MinSpread -> 90; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CGC,_t -> EntityPartVariableSpread; MinSpread -> 45; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AURORA,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+KOSPI200,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+TRS20,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Instrument Does Not Exist
+#TLRY,_t -> EntityPartVariableSpread; MinSpread -> 50; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+XAU_AUD,_t -> EntityPartVariableSpread; MinSpread -> 60; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+XAG_AUD,_t -> EntityPartVariableSpread; MinSpread -> 30; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CBA,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#APT,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NAB,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WBC,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#A2M,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ANZ,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CSL,_t -> EntityPartVariableSpread; MinSpread -> 45; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NCM,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MQG,_t -> EntityPartVariableSpread; MinSpread -> 85; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WES,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WPL,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WOW,_t -> EntityPartVariableSpread; MinSpread -> 25; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#COL,_t -> EntityPartVariableSpread; MinSpread -> 13; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#TWE,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ALL,_t -> EntityPartVariableSpread; MinSpread -> 15; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+JAPAN_BOND,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Use SystemInstrumet Default
+EURO-BUND,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Instrument Does Not Exist,Use SystemInstrumet Default
+#UBER,_t -> EntityPartVariableSpread; MinSpread -> 20; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Use SystemInstrumet Default
+#MMM,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ADBE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AKAM,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#MO,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#AMAT,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#ADSK,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#BBY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CBOE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CNP,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CL,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#CME,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#DWDP,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#EBAY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#EA,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#EXPE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#FDX,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#GRMN,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#KMB,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#KHC,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#LLY,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#LMT,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#LOW,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NTAP,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#NKE,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
+#WFC,_t -> EntityPartVariableSpread; MinSpread -> 0; MaxSpread -> -1; BidMarkup -> 0; AskMarkup -> 0; ,Use SystemInstrumet Default,Instrument Does Not Exist
